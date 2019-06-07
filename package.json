@@ -7,11 +7,11 @@
   "author": "Jeong Hwan Lee<ljhw3377@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.17.4",
-    "node-fetch": "^2.6.0"
+    "axios": "^0.19.0",
+    "graphql-yoga": "^1.17.4"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node src/index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
